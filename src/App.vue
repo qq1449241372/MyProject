@@ -12,7 +12,7 @@
         <img src="./assets/img/bag_actived.svg" alt="" slot="item-icon-actived">
         <div name="item-icon" slot="item-text">ShoppingCart</div>
       </tab-bar-item>
-      <tab-bar-item>
+      <tab-bar-item path="/my">
         <img src="./assets/img/my.svg" alt="" slot="item-icon">
         <img src="./assets/img/my_actived.svg" alt="" slot="item-icon-actived">
         <div name="item-icon" slot="item-text">My</div>

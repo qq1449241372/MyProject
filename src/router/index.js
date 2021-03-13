@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 
 const Home = () => import('../views/home/Home')
 const Cart = () => import('../views/cart/Cart')
+const My = () => import('../views/my/My')
 Vue.use(VueRouter)
 
 const routes = [
@@ -18,11 +19,15 @@ const routes = [
     path: '/cart',
     component: Cart,
   },
+  {
+    path: '/my',
+    component: My,
+  },
 ]
 
 const router = new VueRouter({
   routes,
-  mode:'history',
+  mode: 'history',
 })
 
 export default router
